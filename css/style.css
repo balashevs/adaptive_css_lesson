@@ -40,6 +40,8 @@ body {
     overflow: hidden;
 }
 ._container {
-    max-width: 1046;
+    max-width: 1046px;
     margin: 0px auto;   
 }
+
+
