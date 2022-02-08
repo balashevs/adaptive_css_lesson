@@ -135,6 +135,9 @@ margin: 0px 21px 0px 0px;
 .page__main-block {
 }
 
+.page__services {
+}
+
 /*---ПОДВАЛ---------------------------------*/
 
 .footer {
@@ -236,4 +239,42 @@ color: #FFFFFF;
     .main-block__image {
         opacity: 0.5;
     }
+}
+
+/*---------------------------------------*/
+.services {
+}
+.services__container {
+}
+._container {
+}
+.services__body {
+    display: flex;
+    margin: 0px -15px;
+}
+.services__column {
+    padding: 0px 15px;
+    flex: 0 1 33.333%;
+}
+.services__item {
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    background: #FFFFFF;
+    padding: 35px;
+}
+.item-service {
+}
+.item-service > * :not(:last-child){
+margin: 0px 0px 10px 0px;
+}
+.item-service__icon {
+}
+.item-service__title {
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    font-size: 24px;
+    line-height: 133%;
+}
+.item-service__text {
+    color: #737373;
+    line-height: 142%;
 }
