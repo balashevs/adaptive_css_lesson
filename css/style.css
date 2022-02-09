@@ -136,6 +136,9 @@ margin: 0px 21px 0px 0px;
 }
 
 .page__services {
+    position: relative;
+    z-index: 2;
+    margin: -111px 0px 0px 0px;
 }
 
 /*---ПОДВАЛ---------------------------------*/
@@ -250,18 +253,38 @@ color: #FFFFFF;
 }
 .services__body {
     display: flex;
-    margin: 0px -15px;
+    flex-wrap: wrap;
+    margin: 0px -15px -30px;
 }
 .services__column {
     padding: 0px 15px;
     flex: 0 1 33.333%;
+    margin: 0px 0px 30px 0px;
 }
+@media (max-width:992){
+    .services__column {
+        flex: 0 1 50%;
+       
+    }   
+}
+
 .services__item {
+   
+    height: 100%;
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
     background: #FFFFFF;
     padding: 35px;
 }
 .item-service {
+}
+.item-service_green {
+    background-color: #0D5C63;
+}
+.item-service_green .item-service__title {
+    color :#FFFFFF;
+}
+.item-service_green .item-service__text {
+    color :#FFFFFF;
 }
 .item-service > * :not(:last-child){
 margin: 0px 0px 10px 0px;
